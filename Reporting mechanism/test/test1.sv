@@ -14,7 +14,7 @@ int file,file2;
  function void start_of_simulation();
   uvm_top.print_topology();
 
-  //uvm_error and uvm_info are logged in to a file
+  //uvm_error and uvm_info are logged in to 2 different files 
   file = $fopen("logfile","w");
      file2 = $fopen("logfile1","w");
   set_report_severity_file_hier(UVM_INFO,file);
