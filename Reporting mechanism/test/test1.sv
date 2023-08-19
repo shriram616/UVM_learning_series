@@ -1,3 +1,5 @@
+//In this example it will create 2 files seperately for logging two different messages
+
 class test1 extends uvm_test;
  `uvm_component_utils(test1)
 
