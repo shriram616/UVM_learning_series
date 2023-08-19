@@ -20,7 +20,7 @@ int file,file2;
   set_report_severity_file_hier(UVM_INFO,file);
   set_report_severity_file_hier(UVM_ERROR,file2);
   set_report_severity_action(UVM_INFO,UVM_LOG+UVM_DISPLAY);
-  set_report_severity_action(UVM_ERROR,UVM_LOG+UVM_DISPLAY);; //uvm_error is not displayed instead its only logged into a seperate file
+  set_report_severity_action(UVM_ERROR,UVM_LOG+UVM_DISPLAY);; //uvm_error is displayed and logged into a seperate file
 
  endfunction
 
