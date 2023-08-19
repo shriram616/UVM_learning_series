@@ -1,0 +1,3 @@
+vsim tb -c +UVM_TESTNAME=test1 +UVM_VERBOSITY=UVM_MEDIUM -do "run -all;exit;"
+
+//+UVM_MAX_QUIT_COUNT=3 --> optional
