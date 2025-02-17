@@ -1,1 +1,14 @@
 We are going to learn about the sequences, sequencers, virtual sequences, virtual sequencer and p_sequencer
+
+virtual sequencer :
+   Its a container for the sequencers. 
+
+virtual sequence:
+   It has the set of sequences that needs to be executed on different sequencers.
+
+sequence:(Pending: explanation of different macros)
+
+   
+  
+
+
